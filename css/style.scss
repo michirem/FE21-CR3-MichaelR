@@ -1,4 +1,4 @@
-// imports and base styling elements
+// font import and base styling elements
 
 $red: #ff0202ff;
 $silver: #c4c4c4ff;
@@ -35,6 +35,8 @@ a {
     color: black;
 }
 
+// button styling with media query for button width
+
 .button {
     width: 80px;
     height: 45px;
@@ -57,10 +59,6 @@ a {
     }
   }
 
-  hr {
-      width: 10%;
-  }
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .button {
         width: 120px;
@@ -73,7 +71,7 @@ a {
     }
 }
 
-// header styling
+// header styling with media query for adaptive logo
 
 header {
     background-image: url("..//img/memphis-mini.png");
@@ -138,7 +136,7 @@ header {
     }
 }
 
-//article styling
+//article styling with media query for article headings
 
 article {
     h4 {

@@ -56,10 +56,6 @@ a {
   color: white;
 }
 
-hr {
-  width: 10%;
-}
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .button {
     width: 120px;
