@@ -19,133 +19,166 @@
     </head>
     <body>
         <div class="container">
-            <header>
-                <div id="logo">
-                    <h1>Donurger</h1>
-                    <br>
-                    <h2>Donuts & Burger</h2>
+            <header class="d-flex row fixed-top">
+                <div class="logo col-12 offset-lg-1 col-lg-4 col-md-5 mt-3 mb-3">
+                    <h1 class="text-center display-1 mb-0 pt-1">Donurger</h1>
+                    <h2 class="text-center">Donuts & Burger</h2>
                 </div>
-                <nav>
-                    <ul>
+                <nav class="navstandard d-none d-md-inline-flex offset-lg-1 col-lg-6 pe-lg-5 offset-md-1 col-md-6">
+                    <ul class="d-flex flex-row align-items-center justify-content-evenly">
                         <li>
-                            <a href="..//html/index.html">Home</a>
+                            <button class="button">
+                                <a class="h2" href="..//html/index.html">Home</a>
+                            </button>
                         </li>
                         <li>
-                            <a href="..//html/review.html">Ratings</a>
+                            <button class="button">
+                                <a class="h2" href="..//html/review.html">Ratings</a>
+                            </button>
                         </li>
                     </ul>
                 </nav>
             </header>
-            <section class="hero">
-                <p>
+            <section class="hero d-flex justify-content-center align-items-end">
+                <h2 class="h1">
                     You will
                     <b>love</b>
                     the
                     <b>taste</b>
                     .
-                </p>
+                </h2>
+            </section>
+            <section class="heroscroll d-md-none d-flex justify-content-center">
+                <p class="scrolldown">scroll down to see what we’ve got for you</p>
             </section>
             <main role="main">
-                <div class="banner">
-                    <h3>The Burgers</h3>
+                <div class="text-center">
+                    <h2>- The Burgers -</h2>
                 </div>
-                <article>
-                    <img src="..//img/Burger1.webp" alt="burger1">
-                    <h4>The "TastyAF" - 13,90€</h4>
-                    <p>Signature Burger with crispy bacon, melted Monterey Jack cheese and our home made signature Glaze on toasted bread.</p>
-                </article>
-                <article>
-                    <img src="..//img/Burger2.webp" alt="burger2">
-                    <h4>The "Classic" - 12,90€</h4>
-                    <p>Extremely classic, extremely good. 200g saucy meat with melted Monterey Jack cheese and specially spiced ketchup, finished with fermented cucumbers on toasted bread. </p>
-                </article>
-                <article>
-                    <img src="..//img/Burger3.webp" alt="burger3">
-                    <h4>The "BlackJack" - 15,90€</h4>
-                    <p>Black Buns with crispy bacon, melted Monterey Jack cheese and our home made Sour Cream Sauce.</p>
-                </article>
-                <article>
-                    <img src="..//img/Burger4.webp" alt="burger4">
-                    <h4>The "OneBite" - 18,90€</h4>
-                    <p>Double 200g patty with molten Monterey Jack Kcheese, deep grilled onions, on toasted bread with fresh tomatoes and crispy lettuce.</p>
-                </article>
-                <div class="banner">
-                    <h3>Sides</h3>
+                <div class="row">
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/Burger1.webp" alt="burger1">
+                        <h4 class="text-center mb-0 pb-0 pt-3">The "Tasty A.F." - 13,90€</h4>
+                        <p class="h6 text-center">Signature Burger with crispy bacon, melted Monterey Jack cheese and our home made signature Glaze on toasted bread.</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/Burger2.webp" alt="burger2">
+                        <h4 class="text-center mb-0 pb-0 pt-3">The "Classic" - 12,90€</h4>
+                        <p class="h6 text-center">Extremely classic, extremely good. 200g saucy meat with melted Monterey Jack cheese and specially spiced ketchup, finished with fermented cucumbers on toasted bread.</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/Burger3.webp" alt="burger3">
+                        <h4 class="text-center mb-0 pb-0 pt-3">The "BlackJack" - 15,90€</h4>
+                        <p class="h6 text-center">Black Buns with crispy bacon, melted Monterey Jack cheese and our home made Sour Cream Sauce.</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/Burger4.webp" alt="burger4">
+                        <h4 class="text-center mb-0 pb-0 pt-3">The "OneBite" - 18,90€</h4>
+                        <p class="h6 text-center">Double 200g patty with molten Monterey Jack Kcheese, deep grilled onions, on toasted bread with fresh tomatoes and crispy lettuce.</p>
+                    </article>
                 </div>
-                <article>
-                    <img src="..//img/side1.webp" alt="side1">
-                    <h4>French Fries - 4,90€</h4>
-                    <p>Classic crispy french fries.</p>
-                </article>
-                <article>
-                    <img src="..//img/side2.webp" alt="side2">
-                    <h4>Sweet Potato Fries - 5,90€</h4>
-                    <p>Homemade sweet potato fries.</p>
-                </article>
-                <article>
-                    <img src="..//img/side3.webp" alt="side3">
-                    <h4>Fresh mixed greens salad - 5,90€</h4>
-                    <p>Cucumber, peppers, carrots, fresh tomatos and lettuce are paired with our home made delicious dressing.</p>
-                </article>
-                <article>
-                    <img src="..//img/side4.webp" alt="side4">
-                    <h4>Onion rings - 5,50€</h4>
-                    <p>Crispy onion rings.</p>
-                </article>
-                <div class="banner">
-                    <h3>The Donuts</h3>
+                <div class="text-center">
+                    <h2>- Sides -</h2>
                 </div>
-                <article>
-                    <img src="..//img/donut1.webp" alt="donut1">
-                    <h4>Choco Colors delight - 3,90€</h4>
-                    <p>The colors of the rainbow combined with creamy chocolate. Tastes exactly like it sounds!</p>
-                </article>
-                <article>
-                    <img src="..//img/donut2.webp" alt="donut2">
-                    <h4>Strawberry delight - 3,90€</h4>
-                    <p>You won't forget the taste of THESE strawberries!</p>
-                </article>
-                <article>
-                    <img src="..//img/donut3.webp" alt="donut3">
-                    <h4>Dark desire - 4,40€</h4>
-                    <p>Just try. Pic says all!</p>
-                </article>
-                <article>
-                    <img src="..//img/donut4.webp" alt="donut4">
-                    <h4>Caramel zebra - 3,90€</h4>
-                    <p>Because caramel. Why not?</p>
-                </article>
-            <div class="banner">
-                <h3>Drinks</h3>
-            </div>
-            <article>
-                <img src="..//img/drink1.webp" alt="drink1">
-                <h4>Coke - 3,20€</h4>
-                <p>... in a glass bottle. Ice cold. What else?</p>
-            </article>
-            <article>
-                <img src="..//img/drink2.jpeg" alt="drink2">
-                <h4>Green smoothie - 3,90€</h4>
-                <p>Made from fresh ananas, spinach and juicy apple for you taste buds!</p>
-            </article>
-            <article>
-                <img src="..//img/drink3.webp" alt="drink3">
-                <h4>Orange Juice- 3,40€</h4>
-                <p>... cuz we juice 'em fresh!</p>
-            </article>
-            <article>
-                <img src="..//img/drink4.webp" alt="drink4">
-                <h4>Strawberry smoothie - 3,90€</h4>
-                <p>The name says all. You know what donut goes best to this one! ;-)</p>
-            </article>
+                <div class="row">
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/side1.webp" alt="side1">
+                        <h4 class="text-center mb-0 pb-0 pt-3">French Fries - 4,90€</h4>
+                        <p class="h6 text-center">Classic crispy french fries.</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/side2.webp" alt="side2">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Sweet Potato Fries - 5,90€</h4>
+                        <p class="h6 text-center">Homemade sweet potato fries.</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/side3.webp" alt="side3">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Fresh mixed greens salad - 5,90€</h4>
+                        <p class="h6 text-center">Cucumber, peppers, carrots, fresh tomatos and lettuce are paired with our home made delicious dressing.</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/side4.webp" alt="side4">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Onion rings - 5,50€</h4>
+                        <p class="h6 text-center">Crispy onion rings.</p>
+                    </article>
+                </div>
+                <div class="text-center">
+                    <h2>- The Donuts -</h2>
+                </div>
+                <div class="row">
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/donut1.webp" alt="donut1">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Choco Colors delight - 3,90€</h4>
+                        <p class="h6 text-center">The colors of the rainbow combined with creamy chocolate. Tastes exactly like it sounds!</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/donut2.webp" alt="donut2">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Strawberry delight - 3,90€</h4>
+                        <p class="h6 text-center">You won't forget the taste of THESE strawberries!</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/donut3.webp" alt="donut3">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Dark desire - 4,40€</h4>
+                        <p class="h6 text-center">Just try. Pic says all!</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/donut4.webp" alt="donut4">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Caramel zebra - 3,90€</h4>
+                        <p class="h6 text-center">Because caramel. Why not?</p>
+                    </article>
+                </div>
+                <div class="text-center">
+                    <h2>- Drinks -</h2>
+                </div>
+                <div class="row">
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/drink1.webp" alt="drink1">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Coke - 3,20€</h4>
+                        <p class="h6 text-center">... in a glass bottle. Ice cold. What else?</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/drink2.jpeg" alt="drink2">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Green smoothie - 3,90€</h4>
+                        <p class="h6 text-center">Made from fresh ananas, spinach and juicy apple for you taste buds!</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/drink3.webp" alt="drink3">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Orange Juice- 3,40€</h4>
+                        <p class="h6 text-center">... cuz we juice 'em fresh!</p>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 mb-3">
+                        <img src="..//img/drink4.webp" alt="drink4">
+                        <h4 class="text-center mb-0 pb-0 pt-3">Strawberry smoothie - 3,90€</h4>
+                        <p class="h6 text-center">The name says all. You know what donut goes best to this one! ;-)</p>
+                    </article>
+                </div>
             </main>
-            <footer>
-                <p>&copy; HTML CheatSheet</p>
-                <address>
+            <footer class="d-flex flex-column">
+                <div class="logo">
+                    <h1 class="text-center display-1 mb-0 pt-1">Donurger</h1>
+                    <h2 class="text-center">Donuts & Burger</h2>
+                </div>
+                <address class="text-center">
                     Contact
-                    <a href="mailto:me@htmlg.com">me</a>
+                    <a href="mailto:me@donurger.com">our Restaurant</a>
                 </address>
             </footer>
+            <div>
+                <nav class="navmobile d-md-none fixed-bottom">
+                    <ul class="d-flex align-items-center justify-content-around ps-0 py-1 mb-0">
+                        <li>
+                            <button class="button">
+                                <a class="h2" href="..//html/index.html">Home</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="button">
+                                <a class="h2" href="..//html/review.html">Ratings</a>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <!-- Bootstrap v5.0 script (bundle with popper)-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
