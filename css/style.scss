@@ -41,7 +41,7 @@ a {
     background-color: #fff;
     border: none;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
@@ -49,7 +49,7 @@ a {
   
   .button:hover {
     background-color: $red;
-    box-shadow: 0px 15px 20px $silver;
+    box-shadow: 0px 4px 12px $silver;
     color: white;
     transform: translateY(-3px);
     a{
@@ -63,7 +63,7 @@ a {
 
 @media screen and (min-width: 481px) {
     .button {
-        width: 120px;
+        width: 150px;
     }
 }
 
