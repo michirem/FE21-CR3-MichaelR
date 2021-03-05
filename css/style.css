@@ -26,7 +26,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #ff0202ff;
+  color: black;
 }
 
 .button {
@@ -60,9 +60,15 @@ hr {
   width: 10%;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .button {
-    width: 150px;
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .button {
+    width: 130px;
   }
 }
 
@@ -78,7 +84,6 @@ header {
 .navstandard ul, .navmobile ul {
   width: 100%;
   height: 100%;
-  background-image: url("..//img/memphis-mini.png");
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -137,5 +142,9 @@ article p {
 
 address {
   margin-bottom: 70px;
+}
+
+.navmobile {
+  background-image: url("..//img/memphis-mini.png");
 }
 /*# sourceMappingURL=style.css.map */
