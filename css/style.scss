@@ -1,5 +1,8 @@
 // global styling
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+HK&display=swap');
+
 // reset margin & padding
 * {
     margin: 0;
@@ -7,3 +10,10 @@
     border: solid 0.5px black;
 }
 
+header {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+}
