@@ -122,18 +122,8 @@ header {
   }
 }
 
-article h4 {
-  height: 40px;
-}
-
 article p {
   color: grey;
-}
-
-@media screen and (min-width: 769px) {
-  article h4 {
-    height: 80px;
-  }
 }
 
 address {
