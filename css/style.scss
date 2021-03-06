@@ -11,7 +11,6 @@ $silver: #c4c4c4ff;
     margin: 0;
     padding: 0;
     font-family: 'Bebas Neue', cursive;
-    border: solid 0.5px black;
 }
 
 body {
@@ -106,6 +105,7 @@ header {
     height: 140vw;
     padding-bottom: 40vw;
     color: white;
+    text-shadow: 1px 0px 1px rgba(150, 150, 150, 1);
     background-image: url("https://images.unsplash.com/photo-1576409664823-71e5e0ffc7f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
     b{
         color: $red;
@@ -120,7 +120,7 @@ header {
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .hero {
         height: 50vw;
-        padding-bottom: 11vw;
+        padding-bottom: 12vw;
     }
 }
 
@@ -147,10 +147,6 @@ article {
 
 // Review section carousel img styling
 
-// .carousel-inner > .carousel-item > img {
-//     width: 200px !important;//used px to keep the img height constant while fitting the width to the container
-// }
-
 .img-text {
     width: 100%;
     height: 90%;
@@ -164,6 +160,7 @@ article {
 
 .single-box {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .img-area {
