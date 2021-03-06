@@ -34,8 +34,11 @@ console.log(`The total is: ` + calculateInvoice(sweetPotato,oneBite,caramelZebra
 // function for 10% discount for students on all items but drinks
 
 function studentInvoice(starterPrice, maindishPrice, dessertPrice,beveragePrice) {
+    // applied discount to goods to be discounted 10%
     let sumDiscounted = (starterPrice + maindishPrice + dessertPrice) * 0.9;
+    // calculated discount to be displayed as information in the console
     let discount = sumDiscounted / 0.9 * 0.1;
+    // added beverage price for total invoice
     let invoice = sumDiscounted + beveragePrice;
 
     return [invoice, discount]
